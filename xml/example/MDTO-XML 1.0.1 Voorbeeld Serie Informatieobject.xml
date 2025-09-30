@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MDTO xmlns="https://www.nationaalarchief.nl/mdto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.nationaalarchief.nl/mdto https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd">
+	<informatieobject>
+		<identificatie>
+			<identificatieKenmerk>informatieobject-93b7-4568-9f1a-5a35362f429d</identificatieKenmerk>
+			<identificatieBron>Proza (OCW-DMS)</identificatieBron>
+		</identificatie>
+		<identificatie>
+			<identificatieKenmerk>2.13.999</identificatieKenmerk>
+			<identificatieBron>Collectiebeheersysteem Nationaal Archief</identificatieBron>
+		</identificatie>
+		<naam>Vergunningen van de gemeente 's-Gravenhage vanaf 1980</naam>
+		<aggregatieniveau>
+			<begripLabel>Serie</begripLabel>
+			<begripBegrippenlijst>
+				<verwijzingNaam>Begrippenlijst Aggregatieniveaus MDTO</verwijzingNaam>
+			</begripBegrippenlijst>
+		</aggregatieniveau>
+		<classificatie>
+			<begripLabel>Handhaving en vergunningen</begripLabel>
+			<begripCode>1.731</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>Documentair Structuurplan gemeente 's-Gravenhage</verwijzingNaam>
+			</begripBegrippenlijst>
+		</classificatie>
+		<trefwoord>handhaving</trefwoord>
+		<trefwoord>vergunningen</trefwoord>
+		<omschrijving>Het digitaal archief van de afdeling vergunningen van de gemeente 's-Gravenhage vanaf 1980</omschrijving>
+		<raadpleeglocatie>
+			<raadpleeglocatieOnline>https://archief.nl/toegangen/2.13.999/record1-93b7-4568-9f1a-5a35262f439d</raadpleeglocatieOnline>
+		</raadpleeglocatie>
+		<dekkingInTijd>
+			<dekkingInTijdType>
+				<begripLabel>Periode die het archief bestrijkt</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>Begrippenlijst gemeente Den Haag</verwijzingNaam>
+				</begripBegrippenlijst>
+			</dekkingInTijdType>
+			<dekkingInTijdBegindatum>1980-01-01</dekkingInTijdBegindatum>
+			<dekkingInTijdEinddatum>1990-01-01</dekkingInTijdEinddatum>
+		</dekkingInTijd>
+		<dekkingInRuimte>
+			<verwijzingNaam>'s-Gravenhage</verwijzingNaam>
+		</dekkingInRuimte>
+		<taal>nl</taal>
+		<event>
+			<eventType>
+				<begripLabel>Migratie</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>Begrippenlijst EventTypeLijst MDTO</verwijzingNaam>
+				</begripBegrippenlijst>
+			</eventType>
+			<eventTijd>2020-01-12T23:20:00</eventTijd>
+			<eventVerantwoordelijkeActor>
+				<verwijzingNaam>Beleidsmedewerker informatiebeheer</verwijzingNaam>
+				<verwijzingIdentificatie>
+					<identificatieKenmerk>M94739921</identificatieKenmerk>
+					<identificatieBron>ZZ-TRIMADDIN</identificatieBron>
+				</verwijzingIdentificatie>
+			</eventVerantwoordelijkeActor>
+		</event>
+		<waardering>
+			<begripLabel>Nader te bepalen</begripLabel>
+			<begripCode>N</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>Begrippenlijst Waarderingen MDTO</verwijzingNaam>
+			</begripBegrippenlijst>
+		</waardering>
+		<informatiecategorie>
+			<begripLabel>Toestemming verlenen</begripLabel>
+			<begripCode>11</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>Selectielijst Gemeenten en intergemeentelijke organen 2020</verwijzingNaam>
+			</begripBegrippenlijst>
+		</informatiecategorie>
+		<bevatOnderdeel>
+			<verwijzingNaam>Kapvergunning Hooigracht 21 Den Haag</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>Informatieobject-9f1a-5a35262f429d</identificatieKenmerk>
+				<identificatieBron>Proza (OCW-DMS)</identificatieBron>
+			</verwijzingIdentificatie>
+		</bevatOnderdeel>
+		<archiefvormer>
+			<verwijzingNaam>'s-Gravenhage</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>http://standaarden.overheid.nl/owms/terms/'s-Gravenhage</identificatieKenmerk>
+				<identificatieBron>OWMS</identificatieBron>
+			</verwijzingIdentificatie>
+		</archiefvormer>
+		<activiteit>
+			<verwijzingNaam>Behandelen vergunningsaanvragen</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>821002193-20201</identificatieKenmerk>
+				<identificatieBron>GEMTE</identificatieBron>
+			</verwijzingIdentificatie>
+		</activiteit>
+	</informatieobject>
+</MDTO>

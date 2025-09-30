@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MDTO xmlns="https://www.nationaalarchief.nl/mdto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.nationaalarchief.nl/mdto https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd">
+	<bestand>
+		<identificatie>
+			<identificatieKenmerk>Bestand-34c5-4379-9f1a-5c37872e316d</identificatieKenmerk>
+			<identificatieBron>Proza (OCW-DMS)</identificatieBron>
+		</identificatie>
+		<naam>19880405KapvergunningHoogracht.pdf</naam>
+		<omvang>2638472</omvang>
+		<bestandsformaat>
+			<begripLabel>Acrobat PDF/A - Portable Document Format</begripLabel>
+			<begripCode>fmt/95</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>PRONOM-register</verwijzingNaam>
+			</begripBegrippenlijst>
+		</bestandsformaat>
+		<checksum>
+			<checksumAlgoritme>
+				<begripLabel>SHA-256</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>Begrippenlijst ChecksumAlgoritme MDTO</verwijzingNaam>
+				</begripBegrippenlijst>
+			</checksumAlgoritme>
+			<checksumWaarde>ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad</checksumWaarde>
+			<checksumDatum>1988-04-05T23:51:18</checksumDatum>
+		</checksum>
+		<URLBestand>https://kia.pleio.nl/file/download/55815288/0090101KapvergunningHoogracht.pdf</URLBestand>
+		<isRepresentatieVan>
+			<verwijzingNaam>Verlenen kapvergunning Hooigracht 21 Den Haag</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>Informatieobject-4661a-5a3526fh654ee</identificatieKenmerk>
+				<identificatieBron>Proza (OCW-DMS)</identificatieBron>
+			</verwijzingIdentificatie>
+		</isRepresentatieVan>
+	</bestand>
+</MDTO>
