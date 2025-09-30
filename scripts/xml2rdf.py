@@ -143,18 +143,29 @@ def add_identificatie_nodes(g: Graph, planner: UriPlanner, subject: URIRef, iden
 
 
 def add_verwijzing_node(g: Graph, planner: UriPlanner, verwijzing_el: etree._Element) -> URIRef:
+    """Return a URI for a verwijzing.
+    - If verwijzingIdentificatie/identificatieKenmerk is an absolute URI, return it directly and DO NOT create a mdto:VerwijzingGegevens node.
+    - Otherwise, create a local mdto:VerwijzingGegevens node and attach its properties.
+    """
+    def qn(local: str) -> str:
+        return f"{{{XML_NS}}}{local}"
+    # 1) Check for external absolute URI
+    id_el = verwijzing_el.find(qn('verwijzingIdentificatie'))
+    if id_el is not None:
+        kenmerk_el = id_el.find(qn('identificatieKenmerk'))
+        if kenmerk_el is not None and kenmerk_el.text:
+            ktxt = kenmerk_el.text.strip()
+            if re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", ktxt):
+                # Absolute URI: return it as-is, no node creation
+                return URIRef(ktxt)
+    # 2) Local node fallback
     key = extract_verwijzing_key(verwijzing_el) or sha1(etree.tostring(verwijzing_el, encoding='unicode'))
     u = URIRef(planner.uri('verwijzing', key))
     g.add((u, RDF.type, MDTO.VerwijzingGegevens))
-    def qn(local: str) -> str:
-        return f"{{{XML_NS}}}{local}"
     naam_el = verwijzing_el.find(qn('verwijzingNaam'))
     if naam_el is not None and naam_el.text:
         g.add((u, MDTO.verwijzingNaam, Literal(naam_el.text.strip())))
-    id_el = verwijzing_el.find(qn('verwijzingIdentificatie'))
     if id_el is not None:
-        # Reuse IdentificatieGegevens helper
-        # But bouw a small list with single ident element
         add_identificatie_nodes(g, planner, u, [id_el])
     return u
 
