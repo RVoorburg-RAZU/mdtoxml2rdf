@@ -43,7 +43,7 @@ python scripts/xml2rdf.py \
 ## Notes
 - The converter infers correct XML Schema date datatypes (`xsd:date`, `xsd:gYearMonth`, `xsd:gYear`, `xsd:dateTime`) to satisfy SHACL `sh:or` constraints.
 - The SHACL provided by Nationaal Archief was incorrect, so it was modified to be correct. See [corrected MDTO RDF](https://github.com/Regionaal-Archief-Zuid-Utrecht/MDTO-RDF).
-- URI's are minted using <identificatieKenmerk> and <identificatieBron>, unless <identificiatieKenmerk> is a valid URI, in which case it is used as-is.
+- URI's are minted using `<identificatieKenmerk>` and `<identificatieBron>`, unless `<identificiatieKenmerk>` is a valid URI, in which case it is used as-is.
 
 ## Output
 - The generated RDF is written to `output/mdto.ttl` (configurable via `--out`).
